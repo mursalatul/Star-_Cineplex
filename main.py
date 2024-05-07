@@ -20,8 +20,9 @@ class Hall(Star_Cinema):
         self.__seats={}
         self.__show_list=[]
         self.cinema.entry_hall(self)
-    
-    
+    # this is command 
+    # second time edit 
+
     def entry_show(self,show_id,movie_name):
         self.__show_list.append((show_id,movie_name))
         seat_list=[]
