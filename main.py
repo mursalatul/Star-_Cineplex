@@ -10,7 +10,7 @@ class Star_Cinema:
     def get_halls(self):
         return self.hall_list
     
-
+# from browser 
 class Hall(Star_Cinema):
     def __init__(self,cinema,rows,cols,hall_no):
         self.cinema=cinema
