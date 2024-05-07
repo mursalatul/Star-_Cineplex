@@ -73,7 +73,7 @@ class Hall(Star_Cinema):
 
 
 cinema=Star_Cinema()
-hall_1=Hall(5,5,1)
+hall_1=Hall(cinema,5,5,1)
 hall_1.entry_show(1,"Daruchini Dip")
 hall_1.entry_show(2,"Dipu number 2")
 
@@ -86,6 +86,7 @@ while True:
         choose=int(input("Enter Options : "))
     except ValueError:
         print("Please enter integer ")
+        continue
     
 
     if choose==1:
